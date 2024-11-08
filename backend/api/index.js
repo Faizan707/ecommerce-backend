@@ -15,9 +15,11 @@ import dotenv from "dotenv"
 databaseConnection();
 app.use('/uploads', express.static('uploads'));
 app.use(cors({
-    origin: '*', 
-    methods: 'GET,POST,PUT,DELETE', 
-  }));
+  origin: 'http://localhost:3000', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
+}));
+
   app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
 app.use("/api/admin-login", adminRoutes);
