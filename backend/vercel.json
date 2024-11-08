@@ -1,16 +1,1 @@
-{
-    "version": 2,
-    "routes": [
-      {
-        "src": "/api/(.*)", 
-        "dest": "/api/$1", 
-        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"], 
-        "headers": {
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS", 
-          "Access-Control-Allow-Headers": "Content-Type, Authorization" 
-        }
-      }
-    ]
-  }
-  
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" ,"methods":["GET","POST","DELETE","PUT"],"headers":{"Access-Control-Allow-Origin":"*"}}] }
