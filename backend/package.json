@@ -1,9 +1,9 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-    "dev": "node --watch index.js"
+    "dev": "node --watch api/index.js"
   },
   "type": "module",
   "keywords": [],
