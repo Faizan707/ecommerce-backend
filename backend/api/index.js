@@ -15,10 +15,13 @@ import dotenv from "dotenv"
 databaseConnection();
 app.use('/uploads', express.static('uploads'));
 app.use(cors({
-  origin: 'http://localhost:3000', 
+  origin: 'http://localhost:3000', // Specify your frontend's origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
+
+// Handle CORS Preflight requests for PUT/POST/DELETE
+app.options('*', cors());
 
   app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
