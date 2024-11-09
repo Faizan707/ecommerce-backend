@@ -16,13 +16,17 @@ databaseConnection();
 app.use('/uploads', express.static('uploads'));
 let corsOptions = {
   origin: '*',
-  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+  optionsSuccessStatus: 200 
 }
 app.use(cors(corsOptions));
 
 
   app.use(express.json()); 
+
 app.use(express.urlencoded({ extended: true }));
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
 app.use("/api/admin-login", adminRoutes);
 app.use("/api/",userRoutes)
 app.use("/api/products",productRoutes)
