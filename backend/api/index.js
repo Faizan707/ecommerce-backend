@@ -20,8 +20,6 @@ let corsOptions = {
 }
 app.use(cors(corsOptions));
 
-// Ensure preflight requests are handled
-app.options('*', cors());
 
   app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
