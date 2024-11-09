@@ -14,12 +14,11 @@ import dotenv from "dotenv"
  const PORT = process.env.PORT
 databaseConnection();
 app.use('/uploads', express.static('uploads'));
-app.use(cors({
-  origin: '*', // Allow all origins
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allow specific methods
-  allowedHeaders: ['Content-Type', 'Authorization'], // Allow specific headers
-  optionsSuccessStatus: 204 // For legacy browser support
-}));
+let corsOptions = {
+  origin: '*',
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+app.use(cors(corsOptions));
 
 // Ensure preflight requests are handled
 app.options('*', cors());
