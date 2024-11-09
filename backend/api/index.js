@@ -22,9 +22,7 @@ app.use(cors(corsOptions));
 
 
   app.use(express.json()); 
-
 app.use(express.urlencoded({ extended: true }));
-
 app.use("/api/admin-login", adminRoutes);
 app.use("/api/",userRoutes)
 app.use("/api/products",productRoutes)
