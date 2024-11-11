@@ -26,3 +26,5 @@
 {"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:21:34.889Z"}
 {"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:22:14.996Z"}
 {"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:22:15.172Z"}
+{"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:25:08.998Z"}
+{"level":"info","message":"Admin login successful for email: faizan@gmail.com","timestamp":"2024-11-11T05:25:09.172Z"}
