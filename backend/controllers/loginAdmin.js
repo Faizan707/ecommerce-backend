@@ -7,7 +7,7 @@ import logger from "../logger.js";  // Import the logger
 dotenv.config();
 
 export const loginAdmin = async (req, res) => {
-    const JWT_SECRET = process.env.SECRET_KEY; 
+    const JWT_SECRET = process.env.SECRECT_KEY; 
     const { email, password } = req.body;
 
     // Check if email and password are provided

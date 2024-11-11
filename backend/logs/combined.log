@@ -1,0 +1,28 @@
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:18:15.139Z"}
+{"level":"info","message":"Fetching all products","timestamp":"2024-11-11T05:18:15.155Z"}
+{"level":"info","message":"Fetched 0 products","timestamp":"2024-11-11T05:18:15.234Z"}
+{"level":"info","message":"Fetched 0 categories","timestamp":"2024-11-11T05:18:15.245Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:18:19.949Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:18:19.953Z"}
+{"level":"info","message":"Fetched 0 categories","timestamp":"2024-11-11T05:18:20.021Z"}
+{"level":"info","message":"Fetched 0 categories","timestamp":"2024-11-11T05:18:20.027Z"}
+{"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:18:39.390Z"}
+{"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:18:39.553Z"}
+{"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:18:54.070Z"}
+{"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:18:54.239Z"}
+{"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:18:55.348Z"}
+{"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:18:55.537Z"}
+{"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:18:56.473Z"}
+{"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:18:56.929Z"}
+{"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:20:19.884Z"}
+{"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:20:20.039Z"}
+{"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:20:20.949Z"}
+{"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:20:21.137Z"}
+{"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:20:21.908Z"}
+{"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:20:22.062Z"}
+{"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:21:33.098Z"}
+{"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:21:33.259Z"}
+{"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:21:34.735Z"}
+{"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:21:34.889Z"}
+{"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:22:14.996Z"}
+{"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:22:15.172Z"}
