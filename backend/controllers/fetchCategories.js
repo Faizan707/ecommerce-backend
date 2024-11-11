@@ -2,6 +2,7 @@ import Category from "../models/category.js";
 import logger from "../logger.js";  // Import the logger
 
 // Get all categories
+// Error handling for category fetching
 export const getAllCategories = async (req, res) => {
     try {
         logger.info("Fetching all categories");
@@ -11,8 +12,11 @@ export const getAllCategories = async (req, res) => {
         logger.info(`Fetched ${categories.length} categories`);
         res.status(200).json(categories);
     } catch (error) {
-        logger.error("Error fetching categories:", { error });
-        res.status(500).json({ message: "Server error", error });
+        logger.error("Error fetching categories:", { 
+            message: error.message, 
+            stack: error.stack 
+        });
+        res.status(500).json({ message: "Server error", error: error.message });
     }
 };
 
