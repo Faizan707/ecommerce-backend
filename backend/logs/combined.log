@@ -28,3 +28,36 @@
 {"email":"faizan@gmail.com","error":{},"level":"error","message":"Login error:","timestamp":"2024-11-11T05:22:15.172Z"}
 {"level":"info","message":"Admin login attempt with email: faizan@gmail.com","timestamp":"2024-11-11T05:25:08.998Z"}
 {"level":"info","message":"Admin login successful for email: faizan@gmail.com","timestamp":"2024-11-11T05:25:09.172Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:28:29.921Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:28:29.943Z"}
+{"level":"info","message":"Fetched 0 categories","timestamp":"2024-11-11T05:28:30.014Z"}
+{"level":"info","message":"Fetched 0 categories","timestamp":"2024-11-11T05:28:30.075Z"}
+{"level":"info","message":"Received request to create category: Watches","timestamp":"2024-11-11T05:29:20.939Z"}
+{"level":"info","message":"Category 'Watches' created successfully with ID: 67319631cb09945067a888e1","timestamp":"2024-11-11T05:29:21.106Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:29:23.678Z"}
+{"level":"info","message":"Fetched 1 categories","timestamp":"2024-11-11T05:29:23.753Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:29:23.767Z"}
+{"level":"info","message":"Fetched 1 categories","timestamp":"2024-11-11T05:29:23.849Z"}
+{"level":"info","message":"Image uploaded for product: Premium Watch","timestamp":"2024-11-11T05:30:07.303Z"}
+{"level":"info","message":"Creating product with title: Premium Watch, category: 67319631cb09945067a888e1","timestamp":"2024-11-11T05:30:07.376Z"}
+{"level":"info","message":"Product created successfully with ID: 6731965fcb09945067a888e6","timestamp":"2024-11-11T05:30:37.666Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:30:43.234Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:30:43.259Z"}
+{"level":"info","message":"Fetching all products","timestamp":"2024-11-11T05:30:43.266Z"}
+{"level":"info","message":"Fetching all products","timestamp":"2024-11-11T05:30:43.270Z"}
+{"level":"info","message":"Fetched 1 categories","timestamp":"2024-11-11T05:30:43.320Z"}
+{"level":"info","message":"Fetched 1 categories","timestamp":"2024-11-11T05:30:43.332Z"}
+{"level":"info","message":"Fetched 1 products","timestamp":"2024-11-11T05:30:44.024Z"}
+{"level":"info","message":"Fetched 1 products","timestamp":"2024-11-11T05:30:44.734Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:30:49.433Z"}
+{"level":"info","message":"Fetching products for category ID: 67319631cb09945067a888e1","timestamp":"2024-11-11T05:30:49.444Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:30:49.447Z"}
+{"level":"info","message":"Fetching products for category ID: 67319631cb09945067a888e1","timestamp":"2024-11-11T05:30:49.449Z"}
+{"level":"info","message":"Fetched 1 categories","timestamp":"2024-11-11T05:30:49.523Z"}
+{"level":"info","message":"Fetched 1 categories","timestamp":"2024-11-11T05:30:49.529Z"}
+{"level":"info","message":"Found 1 products for category ID: 67319631cb09945067a888e1","timestamp":"2024-11-11T05:30:50.330Z"}
+{"level":"info","message":"Found 1 products for category ID: 67319631cb09945067a888e1","timestamp":"2024-11-11T05:30:50.383Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:30:50.701Z"}
+{"level":"info","message":"Fetching all categories","timestamp":"2024-11-11T05:30:50.710Z"}
+{"level":"info","message":"Fetched 1 categories","timestamp":"2024-11-11T05:30:50.778Z"}
+{"level":"info","message":"Fetched 1 categories","timestamp":"2024-11-11T05:30:50.787Z"}
