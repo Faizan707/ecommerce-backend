@@ -15,7 +15,6 @@ const PORT = process.env.PORT;
 // Connect to database
 databaseConnection();
 
-// Serve static files from 'uploads' directory
 app.use('/uploads', express.static('uploads'));
 
 // Enable CORS
@@ -35,10 +34,9 @@ app.use((req, res, next) => {
     console.log(`${req.method} ${req.originalUrl} took ${timeTaken}ms`);
   });
 
-  next(); // Continue to the next middleware or route handler
+  next(); 
 });
 
-// Middleware for parsing request bodies
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
